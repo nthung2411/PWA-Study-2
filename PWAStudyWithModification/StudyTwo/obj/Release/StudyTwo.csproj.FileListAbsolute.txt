@@ -1,0 +1,17 @@
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\csc.exe
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\System.Collections.Immutable.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\System.Reflection.Metadata.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\vbc.exe
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\VBCSCompiler.exe
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\roslyn\VBCSCompiler.exe.config
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\StudyTwo.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\bin\StudyTwo.pdb
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\obj\Release\StudyTwo.csprojResolveAssemblyReference.cache
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\obj\Release\StudyTwo.dll
+D:\Projects\PWA Git Version - Github - 2\PWAStudyWithModification\StudyTwo\obj\Release\StudyTwo.pdb
