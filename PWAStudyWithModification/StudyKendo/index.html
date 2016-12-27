@@ -18,36 +18,88 @@
     <script src="telerik.kendoui.professional.2016.3.1118.trial/js/kendo.angular.min.js"></script>
 
     <link href="dashboard.css" rel="stylesheet" />
+    <link href="inline.css" rel="stylesheet" />
     <script src="dashboard.js"></script>
 </head>
 <body ng-controller="DashboardController">
     <header id="header">
         <div kendo-mobile-nav-bar>
-            <span kendo-mobile-view-title><i class="icon-bar-chart icon-medium"> CatStat</i></span>
+            <span kendo-mobile-view-title>
+                <i class="glyphicon glyphicon-cog"></i>Weather PWA
+            </span>
         </div>
     </header>
+
     <div class="container" id="dashboard">
         <div class="row">
             <!-- side column -->
-            <div class="col-sm-4" id="side">
+            <div class="col-sm-4" id="side" kendo-sortable k-connect-with="'#main'"
+                 k-filter="'.widget'"
+                 k-hint="hint"
+                 k-placeholder="placeholder">
                 <div class="widget">
                     <ul kendo-panel-bar>
                         <li class="k-state-active">
-                            <span class="k-link k-state-selected">Widget 1</span>
+                            <span class="k-link k-state-selected">Picture</span>
+                            <div class="widget-centered">
+                                Some Content
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <ul kendo-panel-bar>
+                        <li class="k-state-active">
+                            <span class="k-link k-state-selected">Widget 2</span>
                             <div>Some Content</div>
                         </li>
                     </ul>
                 </div>
-                <div class="widget"></div>
-                <div class="widget"></div>
+                <div class="widget">
+                    <ul kendo-panel-bar>
+                        <li class="k-state-active">
+                            <span class="k-link k-state-selected">Widget 3</span>
+                            <div>Some Content</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!-- main column -->
-            <div class="col-sm-8" id="main">
-                <div class="widget"></div>
-                <div class="widget"></div>
-                <div class="widget"></div>
+            <div class="col-sm-8" id="main" kendo-sortable k-connect-with="'#side'"
+                 k-filter="'.widget'"
+                 k-hint="hint"
+                 k-placeholder="placeholder">
+                <div class="widget">
+                    <ul kendo-panel-bar>
+                        <li class="k-state-active">
+                            <span class="k-link k-state-selected">Widget 2</span>
+                            <div>Some Content</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <ul kendo-panel-bar>
+                        <li class="k-state-active">
+                            <span class="k-link k-state-selected">Widget 2</span>
+                            <div>Some Content</div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="widget">
+                    <ul kendo-panel-bar>
+                        <li class="k-state-active">
+                            <span class="k-link k-state-selected">Widget 2</span>
+                            <div>Some Content</div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="loader" style="display:none">
+        <svg viewBox="0 0 32 32" width="32" height="32">
+            <circle id="spinner" cx="16" cy="16" r="14" fill="none"></circle>
+        </svg>
     </div>
 </body>
 </html>
