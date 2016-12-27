@@ -27,6 +27,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StudyKendo", "StudyKendo\",
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "StudyAdmin(1)", "StudyAdmin\", "{5CB6CE97-3326-4015-A8CE-9C4E5C38468E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_16327"
+		Debug.AspNetCompiler.PhysicalPath = "StudyAdmin\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16327\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_16327"
+		Release.AspNetCompiler.PhysicalPath = "StudyAdmin\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_16327\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "16327"
+		SlnRelativePath = "StudyAdmin\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +63,10 @@ Global
 		{E7C20EA6-1406-4454-B8FF-A4D7473A7E14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E7C20EA6-1406-4454-B8FF-A4D7473A7E14}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{E7C20EA6-1406-4454-B8FF-A4D7473A7E14}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{5CB6CE97-3326-4015-A8CE-9C4E5C38468E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB6CE97-3326-4015-A8CE-9C4E5C38468E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB6CE97-3326-4015-A8CE-9C4E5C38468E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB6CE97-3326-4015-A8CE-9C4E5C38468E}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
