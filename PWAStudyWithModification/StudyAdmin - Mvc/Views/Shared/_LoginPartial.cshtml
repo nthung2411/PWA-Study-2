@@ -1,6 +1,7 @@
 ﻿@using Microsoft.AspNet.Identity
 @if (Request.IsAuthenticated)
 {
+    //https://www.codeproject.com/articles/1121503/integrate-azure-ad-b-c-with-asp-net-mvc-web-app-pa
     using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
     {
         @Html.AntiForgeryToken()
