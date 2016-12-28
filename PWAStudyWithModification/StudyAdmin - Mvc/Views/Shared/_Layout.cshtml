@@ -40,9 +40,7 @@
         </div>*@
 
     @*@Scripts.Render("~/bundles/jquery")
-        @Scripts.Render("~/bundles/bootstrap")
-        @RenderSection("scripts", required: false)*@
-
+        @Scripts.Render("~/bundles/bootstrap")*@
     <div class="container body">
         <div class="main_container">
             @Html.Partial("_LeftContent")
@@ -57,5 +55,6 @@
     </div>
     @Scripts.Render("~/bundles/AdminDashboard")
     @Html.Partial("_ExtraFooter")
+    @RenderSection("scripts", required: false)
 </body>
 </html>
