@@ -3646,6 +3646,7 @@
     <Content Include="Dashboard Contents\vendors\validator\multifield.js" />
     <Content Include="Dashboard Contents\vendors\validator\validator.js" />
     <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -4488,6 +4489,11 @@
     <Content Include="Dashboard Contents\vendors\validator\.bower.json" />
     <Content Include="Dashboard Contents\vendors\validator\README.md" />
     <Content Include="Dashboard Contents\vendors\validator\validator.jquery.json" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\pwa-admin-dashboard - FTP.pubxml" />
     <None Include="Properties\PublishProfiles\pwa-admin-dashboard - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\pwastudy - FTP.pubxml" />

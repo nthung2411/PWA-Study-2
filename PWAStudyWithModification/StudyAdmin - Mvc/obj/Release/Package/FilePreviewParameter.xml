@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="pwa-admin-dashboard" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Projects\\PWA\ Git\ Version\ -\ Github\ -\ 2\\PWAStudyWithModification\\StudyAdmin\ -\ Mvc\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Projects\\PWA\ Git\ Version\ -\ Github\ -\ 2\\PWAStudyWithModification\\StudyAdmin\ -\ Mvc\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:pwastudy.database.windows.net,1433;Initial Catalog=pwastudy;User Id=null@pwastudy.database.windows.net;Password=QWEASDQWE123" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Projects\\PWA\ Git\ Version\ -\ Github\ -\ 2\\PWAStudyWithModification\\StudyAdmin\ -\ Mvc\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>
